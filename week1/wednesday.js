@@ -44,31 +44,3 @@ function splitInToLength(s, length) {
   }
   return result;
 }
-
-
-
-console.log('result', solution('aabbaccc'));
-// console.log('result', solution('ababcdcdababcdcd'));
-// console.log('result', solution('abcabcdede'));
-// console.log('result', solution('abcabcabcabcdededededede'));
-// console.log('result', solution('xababcdcdababcdcd'));
-
-// "aabbaccc"	7
-
-
-// "ababcdcdababcdcd"	9
-// 2: 2ab2cd2ab2cd
-// 4: abad cdcd
-// 8: ababcdcd ababcdcd
-
-// "abcabcdede"	8
-// 2abc dede
-// 문자열을 3개 단위로 잘라 압축했을 때 가장 짧습니다.
-
-
-
-// "abcabcabcabcdededededede"	14
-// 3: 5abc + 12
-// 6: 
-
-// "xababcdcdababcdcd"	17
