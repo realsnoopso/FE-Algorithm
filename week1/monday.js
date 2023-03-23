@@ -6,7 +6,6 @@ function solution(progresses, speeds) {
 
   let stack = [];
   for (let i = 0; i <= endDateArr.length; i++) {
-    console.log(i);
     const endDate = endDateArr[i];
     if (stack.length === 0) {
       stack.push(endDate);
