@@ -1,8 +1,6 @@
 function solution(progresses, speeds) {
   let answer = [];
-  const endDateArr = progresses.map((progress, i) =>
-    endDateArr.push(Math.ceil((100 - progress) / speeds[i]))
-  );
+  const endDateArr = progresses.map((progress, i) => Math.ceil((100 - progress) / speeds[i])));
 
   let stack = [];
   for (let i = 0; i <= endDateArr.length; i++) {
